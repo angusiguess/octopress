@@ -7,7 +7,7 @@ pages:
   - bundle install -j4
   - bundle exec rake generate
   - mv public .public
-  - mv .public/octopress public
+  - mv .public public
   artifacts:
     paths:
     - public
